@@ -2,8 +2,9 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-const PORT = 4000;
-const ML_SERVICE_URL = "http://127.0.0.1:8000/generate";
+const PORT = process.env.PORT || 4000;
+const ML_SERVICE_URL =
+  process.env.ML_SERVICE_URL || "http://127.0.0.1:8000/generate";
 
 app.use(cors());
 app.use(express.json());

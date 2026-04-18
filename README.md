@@ -35,3 +35,13 @@ npm run dev
 ```
 
 Frontend runs on `http://localhost:5173` and sends requests to the backend on `http://localhost:4000`.
+
+## Deployment environment variables
+
+### Vercel frontend
+
+- `VITE_API_BASE_URL=https://your-render-backend-url.onrender.com`
+
+### Render backend
+
+- `ML_SERVICE_URL=https://your-python-service-url/generate`
