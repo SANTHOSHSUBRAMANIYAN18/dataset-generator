@@ -40,8 +40,8 @@ Frontend runs on `http://localhost:5173` and sends requests to the backend on `h
 
 ### Vercel frontend
 
-- `VITE_API_BASE_URL=https://your-render-backend-url.onrender.com`
+- `VITE_API_BASE_URL=https://dataset-generator-xpz0.onrender.com`
 
 ### Render backend
 
-- `ML_SERVICE_URL=https://your-python-service-url/generate`
+- `ML_SERVICE_URL=https://dataset-generator-1-2ics.onrender.com/generate`
